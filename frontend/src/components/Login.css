@@ -1,0 +1,126 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #E1F9F4;
+}
+.main-div{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.Logo{
+    position: absolute;
+    width: 92px;
+    height: 18px;
+    left: 674px;
+    top: 287px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 18px;
+    /* identical to box height, or 45% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+}
+p{
+    position: absolute;
+    width: 328px;
+    height: 22px;
+    left: 556px;
+    top: 358px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height, or 147% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+input{
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 54px;
+    left: 495px;
+    right: 495px;
+    /* top: 456px; */
+
+    /* Colors/Neutral/White */
+
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 5px;
+}
+.user-id{
+    
+    top: 456px;
+}
+.password{
+    top: 544px;
+    
+}
+.b-div{
+    position: absolute;
+    top: 620px;
+    height: 48px;
+    left: 495px;
+    right: 495px;
+}
+button{
+
+    position: absolute; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+
+    background: #4C57B6;
+    border-radius: 5px;
+}
+/* Path 255 */
+
+/* position: absolute;
+left: 2.88%;
+right: 95.75%;
+top: 16.57%;
+bottom: 81.76%;
+
+background: #2289FF; */
+
+a{position: absolute;
+width: 57px;
+height: 18px;
+left: 689px;
+top: 743px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+
+color: #4C57B6;}
