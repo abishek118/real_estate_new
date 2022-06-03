@@ -7,6 +7,7 @@ export default function Register() {
 const [newobject, setnewobject] = useState({
         name:"",
         email:"",
+        password:"",
       
 })
     // console.log(newobject)
